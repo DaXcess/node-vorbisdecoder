@@ -1,0 +1,20 @@
+{
+  "name": "vorbisdecoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build:dev": "node-gyp -j 16 build --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "nan": "^2.15.0",
+    "typescript": "^4.4.3"
+  }
+}

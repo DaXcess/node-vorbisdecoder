@@ -1,0 +1,7 @@
+.vscode/
+build/
+node_modules/
+
+# Things I play around with
+decode-bin/
+lib/example.ts.disabled
