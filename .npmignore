@@ -1,3 +1,7 @@
 lib/
 src/
 decode-bin/
+.vscode/
+.prettierrc
+binding.gyp
+tsconfig.json
