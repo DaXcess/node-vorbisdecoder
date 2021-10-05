@@ -4,7 +4,7 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "build:dev": "node-gyp -j 16 build --debug"
+    "build": "node-gyp build && tsc"
   },
   "keywords": [],
   "author": "",
