@@ -3,6 +3,6 @@ interface Decoder {
   setup(header: Buffer): void;
 }
 
-const VorbisDecoder: Decoder = require('./Release/vorbis-dec');
+const VorbisDecoder: Decoder = require(`${__dirname}/Release/vorbis-dec`);
 
 export { VorbisDecoder }
